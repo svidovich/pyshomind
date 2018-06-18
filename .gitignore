@@ -1,0 +1,6 @@
+city/
+zipcodes/
+kml/
+*.kml
+*.csv
+*.mmdb

@@ -1,7 +1,7 @@
 # Load Shodan API
 import shodan
 import random
-SHODAN_API_KEY = "KyoKnUyEq3QbaaicBRPHkhu0T0pYzyEx"
+SHODAN_API_KEY = "5PBWYDksSEpd3HmIhEuUQqlylPVClNd5"
 sapi = shodan.Shodan(SHODAN_API_KEY)
 
 # Open the databases for analysis.
@@ -11,8 +11,8 @@ zipdb = open ("zipcodes/zipdb.csv","r")
 
 
 # Let's try to make sure our city and state are strings.
-city = "columbus"
-state = "oh"
+city = "huntsville"
+state = "al"
 
 # Get a neat random number so our filenames are more or less unique
 filerandomizer = random.randint(1,1000)
